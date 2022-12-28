@@ -67,6 +67,7 @@ nav ul li a{
 
 .content h1 span{
     color: #1b9bff;
+    transition: 5s;
 }
 
 .img{
@@ -79,5 +80,43 @@ nav ul li a{
     width: 50vh;
     height: 50vh;
     float: right;
+    
+}
+
+.intro{
+    top: 110%;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://wallpaperaccess.com/full/1644014.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info{
+    position: absolute;
+    top: 110%;
+    color: white;
+    right: 20%;
+}
+
+.info h1{
+    font-size: 40px;
+}
+
+.info h1 span{
+    color: #1b9bff;
+    transition: .5s;
+    text-decoration: underline;
+}
+
+.pic{
+    position: absolute;
+    top: 130%;
+    left: 10%;
+
+}
+.pic img{
+    height: 50vh;
+    width: 25vw;
     
 }

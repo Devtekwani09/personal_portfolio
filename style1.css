@@ -96,3 +96,123 @@ a.active,a:hover{
     width: 30vw;
 }
 
+.skill{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://wallpaperaccess.com/full/1644014.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.skill h1{
+    color: white;
+   text-align: center;
+   font-size: 50px;
+   text-transform: uppercase;
+   text-decoration: solid underline #1b9bff;
+}
+
+.skill h1 span{
+    color: #1b9bff;
+}
+
+.clogo img {
+    border:3px solid #0082e6;
+    border-radius: 10px;
+    height: 20vh;
+    width: 10vw;
+    padding: 3px;
+    position: absolute;
+    left: 15%;
+}
+
+.csslogo img {
+    border:3px solid #0082e6;
+    border-radius: 10px;
+    height: 20vh;
+    width: 10vw;
+    padding: 3px;
+    position: absolute;
+    left: 75%;
+}
+
+.htmllogo img {
+    border:3px solid #0082e6;
+    border-radius: 10px;
+    height: 20vh;
+    width: 10vw;
+    padding: 3px;
+    position: absolute;
+    left: 35%;
+}
+
+.cpplogo img {
+    border:3px solid #0082e6;
+    border-radius: 10px;
+    height: 20vh;
+    width: 10vw;
+    padding: 3px;
+    position: absolute;
+    left: 55%;
+}
+
+.tools{
+    top: 160%;
+    position: absolute;
+    left: 40%;
+    
+}
+
+.tools h1{
+    text-align: center;
+    left: 40%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: solid underline #1b9bff;
+}
+
+.tools h1 span{
+    color: #1b9bff;
+}
+
+
+.vscode img {
+    border:3px solid #0082e6;
+    border-radius: 10px;
+    height: 20vh;
+    width: 10vw;
+    padding: 3px;
+    position: absolute;
+    left: -100%;
+}
+
+.msoffice img {
+    border:3px solid #0082e6;
+    border-radius: 10px;
+    height: 20vh;
+    width: 10vw;
+    padding: 3px;
+    position: absolute;
+    left: -20%;
+}
+.git img {
+    border:3px solid #0082e6;
+    border-radius: 10px;
+    height: 19vh;
+    width: 10vw;
+    padding: 3px;
+    position: absolute;
+    left: 150%;
+}
+.github img {
+    border:3px solid #0082e6;
+    border-radius: 10px;
+    height: 20vh;
+    width: 10vw;
+    padding: 3px;
+    position: absolute;
+    left: 66%;
+}

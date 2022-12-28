@@ -14,6 +14,7 @@ body{
 
 nav{
     background: #0082e6;
+    width: 100vw;
 }
 
 label.logo{
@@ -49,7 +50,7 @@ a.active,a:hover{
 }
 
 .main{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://wallpaperaccess.com/full/1644014.jpg);
     background-size: cover;

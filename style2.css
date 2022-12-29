@@ -103,23 +103,6 @@ nav ul li a{
     text-align: center;
 }
 
-.pro1 button{
-    position: absolute;
-    display: inline-block;
-    padding: 8px 12px;
-    font-size: 24px;
-    cursor: pointer;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: red;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #1b9bff;
-    left: 38%;
-    top: 68vh;
-}
-
 .pro1 button a{
     color: white;
 }
@@ -167,7 +150,7 @@ nav ul li a{
     text-align: center;
 }
 
-.pro2 button{
+.button1{
     position: absolute;
     display: inline-block;
     padding: 8px 12px;
@@ -180,8 +163,8 @@ nav ul li a{
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #1b9bff;
-    left: 38%;
-    top: 68vh;
+    left: 15%;
+    top: 70vh;
 }
 
 .pro2 button a{
@@ -196,5 +179,22 @@ nav ul li a{
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+.button2{
+    position: absolute;
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #1b9bff;
+    right: 15%;
+    top: 70vh;
 }
 

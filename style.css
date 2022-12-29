@@ -1,5 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Martian+Mono:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');    /*  font-family: 'Sevillana', 'cursive'; */
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap'); /*font-family: 'Dancing Script', cursive;*/
  *{
     margin: 0;
     padding: 0;
@@ -18,12 +20,12 @@ nav{
 }
 
 label.logo{
-    font-family: 'League Gothic', sans-serif;;
+    font-family: 'Dancing Script', 'cursive';
     color: white;
     font-size: 30px;
     line-height: 70px;
     padding-left: 20px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 nav ul{
@@ -106,6 +108,7 @@ nav ul li a{
 }
 
 .info h1 span{
+    font-family: 'Sevillana', 'cursive';
     color: #1b9bff;
     transition: .5s;
     text-decoration: underline;
@@ -120,5 +123,18 @@ nav ul li a{
 .pic img{
     height: 50vh;
     width: 25vw;
-    
+}
+
+.material{
+    color: white;
+    position: absolute;
+    top: 140%;
+    right: 10%;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.material span{
+    color: #1b9bff;
 }

@@ -1,5 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200&display=swap');
-*{
+ @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Martian+Mono:wght@300&display=swap');
+ *{
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -17,6 +18,7 @@ nav{
 }
 
 label.logo{
+    font-family: 'League Gothic', sans-serif;;
     color: white;
     font-size: 30px;
     line-height: 70px;
@@ -52,7 +54,6 @@ nav ul li a{
 }
 
 .content{
-    width: 100%;
     position: absolute;
     top: 45%;
     left: 20%;
@@ -68,6 +69,7 @@ nav ul li a{
 .content h1 span{
     color: #1b9bff;
     transition: 5s;
+    font-family: 'Martian Mono', monospace;
 }
 
 .img{

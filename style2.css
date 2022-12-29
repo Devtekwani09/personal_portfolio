@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+nav{
+    background: #0082e6;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 70px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 2px;
+}
+
+
+.main{
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://wallpaperaccess.com/full/1644014.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+
+}
+.content h1{
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline solid #1b9bff ;
+    font-size: 50px;
+}
+
+.content h1 span{
+    color: #1b9bff;
+}
+
+.pro1{
+    height: 80vh;
+    position: absolute;
+    top: 30%;
+    color: white;
+    left: 5%;
+    max-width: 37%;
+    border: 2px solid #1b9bff;
+    border-style: double;
+    box-shadow: 5px 5px blue, 10px 10px red;
+}
+
+.pro1 img{
+    height: auto;
+    width: 30vw;
+    max-width: 100%;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    border: 10px #1b9bff;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 0 #7ab0d9;
+}
+
+.pro1 h1{
+    text-align: center;
+    color: #1b9bff;
+    text-decoration: underline;
+}
+
+.pro1 p{
+    text-align: center;
+}
+
+.pro1 button{
+    position: absolute;
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #1b9bff;
+    left: 38%;
+    top: 68vh;
+}
+
+.pro1 button a{
+    color: white;
+}
+
+.pro1 button:hover{
+    background-color: #3e8e41;
+}
+
+.pro1 button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.pro2{
+    height: 80vh;
+    position: absolute;
+    top: 30%;
+    color: white;
+    right: 5%;
+    max-width: 37%;
+    border: 2px solid #1b9bff;
+    border-style: double;
+    box-shadow: 5px 5px blue, 10px 10px red;
+}
+
+.pro2 img{
+    height: auto;
+    width: 30vw;
+    max-width: 100%;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    border: 10px #1b9bff;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 0 #fff;
+}
+
+.pro2 h1{
+    text-align: center;
+    color: #1b9bff;
+    text-decoration: underline;
+}
+
+.pro2 p{
+    text-align: center;
+}
+
+.pro2 button{
+    position: absolute;
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #1b9bff;
+    left: 38%;
+    top: 68vh;
+}
+
+.pro2 button a{
+    color: white;
+}
+
+.pro2 button:hover{
+    background-color: #3e8e41;
+}
+
+.pro2 button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+

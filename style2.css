@@ -13,40 +13,6 @@ body{
     
 }
 
-nav{
-    background: #0082e6;
-    width: 100%;
-}
-
-label.logo{
-    font-family: 'Dancing Script', 'Cursive';
-    color: white;
-    font-size: 30px;
-    line-height: 70px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-
-nav ul{
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li{
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 5px;
-}
-
-nav ul li a{
-    color: white;
-    font-size: 15px;
-    text-transform: uppercase;
-    padding: 7px 13px;
-    border-radius: 2px;
-}
-
-
 .main{
     width: 100%;
     height: 110vh;
@@ -199,5 +165,74 @@ nav ul li a{
     box-shadow: 0 9px #1b9bff;
     right: 15%;
     top: 70vh;
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+        height: 220vh;
+    }
+
+    .content h1{
+        left: -105px;
+    }
+
+    .pro1{
+        height: 85vh;
+        color: white;
+        left: 5%;
+        max-width: 90%;
+    }
+    
+    .pro1 img{
+        height: auto;
+        width: 83vw;
+    }
+    
+    .pro1 h1{
+        text-align: center;
+        color: #1b9bff;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    
+    .pro1 p{
+        text-align: justify;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .pro1 button{
+        margin-top: 15px;
+    }
+
+    .pro2{
+        top: 130vh;
+        height: 85vh;
+        color: white;
+        left: 5%;
+        max-width: 90%;
+    }
+
+    .pro2 img{
+        height: auto;
+        width: 83vw;
+    }
+
+    .pro2 h1{
+        text-align: center;
+        color: #1b9bff;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    
+    .pro2 p{
+        text-align: justify;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .pro2 button{
+        margin-top: 15px;
+    }
 }
 

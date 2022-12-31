@@ -192,14 +192,14 @@ nav ul li a{
         position: absolute;
         top: 10%;
         left: 40%;
-        width: 30vh;
-        height: 25vh;
+        width: 60vw;
+        height: 30vh;
         float: right;
     }
 
     .img{
         top: 15%;
-        left: -10%;
+        left: -20%;
         justify-content: center;
         position: absolute;
     }
@@ -209,6 +209,7 @@ nav ul li a{
         font-size: 20px;
         color: white;
         left: 8%;
+        top: 50%;
     }
 
     .info{
@@ -221,6 +222,22 @@ nav ul li a{
         font-size: 20px;
         right: 30%;
         width: 237px;
+    }
+
+    .pic{
+        position: absolute;
+        top: 115%;
+        left: 25%;
+    
+    }
+    .pic img{
+        height: 30vh;
+        width: 50vw;
+    }
+
+    .material{
+        padding-left: 25px;
+        top: 145%;
     }
 
 

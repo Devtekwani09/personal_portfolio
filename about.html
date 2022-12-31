@@ -15,16 +15,25 @@
     <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <nav>
-        <label class="logo">Dev Tekwani</label>
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
+    <nav class="navbar">
+        <div class="content">
+          <div class="logo">
+            Dev Tekwani
+          </div>
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="project.html">Projects</a></li>
-            <li><a href="">Resume</a></li>
-
-        </ul>
-    </nav>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
     <div class="main">
         <section>
             <div class="content">
@@ -105,7 +114,25 @@
                 </div>
             </div>
         </footer>
-
-       
+        
+        <script>
+            const body = document.querySelector("body");
+            const navbar = document.querySelector(".navbar");
+            const menuBtn = document.querySelector(".menu-btn");
+            const cancelBtn = document.querySelector(".cancel-btn");
+            menuBtn.onclick = ()=>{
+              navbar.classList.add("show");
+              menuBtn.classList.add("hide");
+              body.classList.add("disabled");
+            }
+            cancelBtn.onclick = ()=>{
+              body.classList.remove("disabled");
+              navbar.classList.remove("show");
+              menuBtn.classList.remove("hide");
+            }
+            window.onscroll = ()=>{
+              this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+            }
+          </script>
 </body>
 </html>

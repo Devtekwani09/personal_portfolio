@@ -45,9 +45,10 @@
 .logo{
     color: white;
     position: absolute;
-    left: 2vw;
-    top: 1vh;
+    left: 0vw;
+    top: -1vh;
     font-weight: bolder;
+    width: 50vw;
 }
 
 .navbar .logo a{
@@ -59,8 +60,8 @@
 .navbar .menu-list{
   display: inline-flex;
   position: absolute;
-  top: 1vh;
-  left: 30vw;
+  top: -1vh;
+  left: 50vw;
 }
 .menu-list li{
   list-style: none;
@@ -123,7 +124,7 @@
 
   .logo{
     left: 0vw;
-    width: 35vw;
+    width: 50vw;
   }
 
   .icon{

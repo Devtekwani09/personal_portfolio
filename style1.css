@@ -195,12 +195,12 @@ body{
     }
 
     .skill{
-        height: 175vh;
+        height: 215vh;
     }
 
     .skill h1{
         position: absolute;
-        top: 130vh;
+        top: 145vh;
         font-size: 40px;
         text-decoration: none;
     }
@@ -212,31 +212,31 @@ body{
     .clogo img {
         width: 35vw;
         left: 7%;
-        top: 150%;
+        top: 165%;
         
     }
 
     .htmllogo img{
         width: 34vw;
         left: 60%;
-        top: 150%;
+        top: 165%;
 
     }
 
     .cpplogo img{
-        top: 180%;
+        top: 195%;
         width: 35vw;
         left: 7%;
     }
 
     .csslogo img{
-        top: 180%;
+        top: 195%;
         width: 34vw;
         left: 60%;
     }
 
     .tools{
-        height: 25vh;
+        height: 35vh;
         /* left: 25%; */
     }
 

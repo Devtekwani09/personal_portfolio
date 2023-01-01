@@ -9,6 +9,179 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 
+/* ---- Navbar --------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::selection{
+  background: rgb(0,123,255,0.3);
+}
+.content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 30px;
+}
+.navbar{
+  position: fixed;
+  height: 10vh;
+  width: 100%;
+  z-index: 2;
+  padding: 25px 0;
+  transition: all 0.3s ease;
+}
+.navbar.sticky{
+  background: #1b9bff;
+  padding: 20px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+.navbar .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    position: absolute;
+    left: 15vw;
+    top: 3vh;
+    font-weight: bolder;
+    width: 50vw;
+}
+
+.navbar .logo a{
+  color: #fff;
+  font-size: 65px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navbar .menu-list{
+  display: inline-flex;
+  position: absolute;
+  top: 3vh;
+  left: 50vw;
+}
+.menu-list li{
+  list-style: none;
+}
+.menu-list li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.menu-list li a:hover{
+  color: #222
+}
+/* .banner{
+  background: url("banner.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} */
+/* .about{
+  padding: 30px 0;
+}
+.about .title{
+  font-size: 38px;
+  font-weight: 700;
+}
+.about p{
+  padding-top: 20px;
+  text-align: justify;
+} */
+.icon{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.menu-list .cancel-btn{
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+/* @media (max-width: 1230px) {
+  .content{
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .content{
+    padding: 0 30px;
+  }
+} */
+@media (max-width: 868px) {
+  body.disabled{
+    overflow: hidden;
+  }
+
+  .logo{
+    left: 0vw;
+    width: 50vw;
+  }
+
+  .icon{
+    display: block;
+    position: absolute;
+    left: 80vw;
+  }
+  .icon.hide{
+    display: none;
+  }
+  .navbar .menu-list{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: #222;
+    transition: all 0.3s ease;
+  }
+  .navbar.show .menu-list{
+    left: 0%;
+  }
+  .navbar .menu-list li{
+    margin-top: 45px;
+  }
+  .navbar .menu-list li a{
+    font-size: 23px;
+    margin-left: -100%;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .navbar.show .menu-list li a{
+    margin-left: 0px;
+  }
+}
+@media (max-width: 380px) {
+  .navbar .logo a{
+    font-size: 27px;
+  }
+}
+
 .main{
     width: 100%;
     height: 210vh;
@@ -50,7 +223,7 @@ body{
     position: absolute;
     color: #1b9bff;
     text-shadow: 2px 2px 2px #fff;
-    top: -25%;
+    top: -40%;
     left: -10%;
 }
 
@@ -74,47 +247,58 @@ body{
 .edu p span{
     padding: 8.5vw;
     text-align: justify;
+    position: absolute;
+    top: -8vh;
+    left: 2vw;
 }
 
 .edu .p2{
     top: 120px;
+    /* border-left: 5px solid #1b9bff; */
+}
+
+.edu .p2 span{
+    position: absolute;
+    top: 4vh;
+    left: -2vw;
 }
 
 .training{
     position: absolute;
-    top: 80%;
-    left: 15%;
+    top: 70%;
+    left: 17%;
 }
 
 .training .info-tr{
-    top: 60px;
-    left: 15%;
+    top: 70px;
+    left: -2vw;
     width: 80vw;
     position: absolute;
     color: white;
     text-align: left;
     margin-left: 50px;
     border-left: 5px solid #1b9bff;
-    padding-left: 15px;
-    font-size: 20px;    
+    padding-left: 15px;    
 }
 
 .training .info-tr h1{
     position: absolute;
-    left: -10%;
-    top: -20%;
+    left: -5%;
+    top: -25%;
     color: #1b9bff;
     text-shadow: 2px 2px 2px #fff;
 }
 
+
 .training p span{
     padding: 13.5vw;
     text-align: justify;
+
 }
 
 .skill{
     position: absolute;
-    top: 150%;
+    top: 130%;
     left: 15%;
 }
 
@@ -193,7 +377,7 @@ body{
 
     .training .info-tr{
         position: absolute;
-        top: 35vh;
+        top: 25vh;
         left: -20vw;
     }
 
@@ -209,8 +393,32 @@ body{
         position: absolute;
     }
 
-    .training .p2{
-        top: ;
+    .info-tr .p2{
+        position: absolute;
+        top: 25vh;
+        font-size: 17px;
+        left: 1vw;
+        padding-left: 10px;
+    }
+
+    .info-tr .p2 span{
+        top: 1vh;
+        left: 0vw;
+        width: 90vw;
+    }
+
+    .info-tr .p3{
+        position: absolute;
+        top: 43vh;
+        left: 1vw;
+        font-size: 17px;
+        padding-left: 3vw;
+    }
+
+    .info-tr .p3 span{
+        top: 1vh;
+        left: 0vw;
+        width: 90vw;
     }
 
 
@@ -219,6 +427,11 @@ body{
         position: absolute;
         top: 60vh;
         left: -20vw;
+    }
+
+    .skill{
+        top: 110%;
+    
     }
         
 }

@@ -11,7 +11,7 @@ body{
 
 .main{
     width: 100%;
-    height: 200vh;
+    height: 210vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://wallpaperaccess.com/full/1644014.jpg);
     background-size: cover;
     background-position: center;
@@ -50,7 +50,7 @@ body{
     position: absolute;
     color: #1b9bff;
     text-shadow: 2px 2px 2px #fff;
-    top: -40%;
+    top: -25%;
     left: -10%;
 }
 
@@ -82,7 +82,7 @@ body{
 
 .training{
     position: absolute;
-    top: 60%;
+    top: 80%;
     left: 15%;
 }
 
@@ -102,7 +102,7 @@ body{
 .training .info-tr h1{
     position: absolute;
     left: -10%;
-    top: -25%;
+    top: -20%;
     color: #1b9bff;
     text-shadow: 2px 2px 2px #fff;
 }
@@ -114,7 +114,7 @@ body{
 
 .skill{
     position: absolute;
-    top: 110%;
+    top: 150%;
     left: 15%;
 }
 
@@ -134,15 +134,18 @@ body{
 .skill .info-sk h1{
     position: absolute;
     left: -10%;
-    top: -40%;
+    top: -25%;
     color: #1b9bff;
     text-shadow: 2px 2px 2px #fff;
 }
 
 @media screen and (max-width: 600px) {
+    .main{
+        height: 265vh;
+    }
     .main h1{
-        top: 15%;
-        left: 85px;
+        top: 10%;
+        left: 80px;
     }
 
     .edu .info{
@@ -150,20 +153,42 @@ body{
     }
 
     .edu h1{
-        top: -20%;
+        top: -55%;
         left: -15%;
     }
 
     .edu p{
-        
+        font-size: 15px;
     }
 
     .edu p span{
         padding: 8.5vw;
+        text-align: justify;
+        position: absolute;
+        top: 25px;
+        left: 28%;
     }
     
-    .edu .p2{
-        top: 120px;
+    .edu .p2{   
+        position: absolute;
+        top: 25vh;
+    }
+
+    .edu .p2 span{
+        position: absolute;
+        top: -1vh;
+        left: 5vw;
+        width: 80vw;
+    }
+
+    .training{
+        position: absolute;
+        top: 60%;
+        left: 15%;
+    }
+
+    .training .info-tr h1{
+        top: -10vh;
     }
 
     .training .info-tr{
@@ -171,6 +196,24 @@ body{
         top: 35vh;
         left: -20vw;
     }
+
+    .training p {
+        position: absolute;
+        top: 4vh;
+        font-size: 17px;
+    }
+
+    .training p span{
+        top: 1vh;
+        left: -3vw;
+        position: absolute;
+    }
+
+    .training .p2{
+        top: ;
+    }
+
+
 
     .skill .info-sk{
         position: absolute;

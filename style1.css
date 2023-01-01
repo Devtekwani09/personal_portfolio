@@ -195,7 +195,7 @@ body{
     }
 
     .skill{
-        height: 215vh;
+        height: 230vh;
     }
 
     .skill h1{
@@ -212,31 +212,31 @@ body{
     .clogo img {
         width: 35vw;
         left: 7%;
-        top: 165%;
+        top: 180%;
         
     }
 
     .htmllogo img{
         width: 34vw;
         left: 60%;
-        top: 165%;
+        top: 180%;
 
     }
 
     .cpplogo img{
-        top: 195%;
+        top: 210%;
         width: 35vw;
         left: 7%;
     }
 
     .csslogo img{
-        top: 195%;
+        top: 210%;
         width: 34vw;
         left: 60%;
     }
 
     .tools{
-        height: 35vh;
+        height: 40vh;
         /* left: 25%; */
     }
 

@@ -168,3 +168,13 @@
     font-size: 27px;
   }
 }
+
+@media screen and (max-width: 1250px) {
+   .logo{
+    left: -10vw;
+   }
+
+   .navbar .menu-list{
+    left: 35vw;
+   }
+}

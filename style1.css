@@ -180,6 +180,18 @@ body{
     left: 66%;
 }
 
+@media screen and (max-width: 1250px) {
+    .img{
+        right: -2vw;
+    }
+
+    .img img{
+        height: 30vh;
+        width: 20vw;
+    }
+    
+}
+
 @media screen and (max-width: 600px){
 
     .img{

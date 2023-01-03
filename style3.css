@@ -240,8 +240,10 @@ body{
     
 }
 
-.edu p{
+.edu p span{
+  position: absolute;
     font-size: 20px;
+    top: 0vh;
 }
 
 .edu p span{
@@ -253,13 +255,16 @@ body{
 }
 
 .edu .p2{
-    top: 120px;
+  position: absolute;
+  top: 4vh;
+  top: 120px;
+  width: 75vw;
     /* border-left: 5px solid #1b9bff; */
 }
 
 .edu .p2 span{
     position: absolute;
-    top: 4vh;
+    top: -12vh;
     left: -2vw;
 }
 
@@ -321,6 +326,24 @@ body{
     top: -25%;
     color: #1b9bff;
     text-shadow: 2px 2px 2px #fff;
+}
+
+@media screen and (max-width: 1250px){
+  .edu p{
+    position: absolute;
+    top: 5vh;
+    width: 75vw;
+  }
+
+  .edu h1{
+    position: absolute;
+    top: -50;
+  }
+
+  .edu .p2 span{
+    top: -8vh;
+    left: -1vw;
+  }
 }
 
 @media screen and (max-width: 600px) {

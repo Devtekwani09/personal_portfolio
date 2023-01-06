@@ -1,124 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="nav.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     </head>
 <body>
-    <nav class="navbar">
-        <div class="content">
-          <div class="logo">
-            Dev Tekwani
-          </div>
-          <ul class="menu-list">
-            <div class="icon cancel-btn">
-              <i class="fas fa-times"></i>
+    <nav>
+        <div class="logo">
+           Dev Tekwani
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a class="active" href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="project.html">Projects</a></li>
+           <li><a href="resume.html">Resume</a></li>
+        </ul>
+     </nav>
+
+     <section>
+        <div class="main">
+            <div class="content">
+                <h2>Hi There</h2>
+                <h1>I am <span>Dev Tekwani</span></h1><br>
+                <h3>Student | Coder | Developer</h3>
             </div>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-          </ul>
-          <div class="icon menu-btn">
-            <i class="fas fa-bars"></i>
-          </div>
+            <div class="img">
+                <img src="profile2.png" alt="">
+            </div>
         </div>
-      </nav>
-    <section>
-    <div class="main">
-        <div class="content">
-            <h2>Hi There</h2>
-            <h1>I am <span>Dev Tekwani</span></h1><br>
-            <h3>Student | Coder | Developer</h3>
-        </div>
-        <div class="img">
-            <img src="profile2.png" alt="">
-        </div>
-    </div>
-    </section>
-
-    <section>
-        <div class="intro">
-            <div class="info">
-            <h1>Let me introduce <span>Myself</span></h1>
-        </div>
-        <div class="pic">
-            <img src="info.png" alt="">
-        </div>
-
-        <div class="material">
-            <p>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️
-                <br><br>
-                I am fluent in classics like <span>C, C++, HTML and CSS.</span>
-                <br><br>
-                My field of Interest's are <span>Web Development and Data Structures and Algorithms.</span>
-                <br><br>
-                Whenever possible, I also apply my passion for developing products with 
-                <br>
-                <span>Node.js and Modern Javascript Library and Frameworks like React.js and Next.js.</span>
-            </p>
-        </div>
-
-        <!-- <div class="words">
-            
-        </div> -->
-        </div>
-       
-    </section>
-
-
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>Developed and Designed by <span>Dev Tekwani</span></h4>
-                </div>
-
-                <div class="footer-col">
-                    <h4 class="mid">copywrite © </a><span>Dev Tekwani</span></h4>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Find me</h4>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/dev-tekwani-3b5b74220?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1OlLD2VGQNKRuIA6c%2FPr6w%3D%3D" class="fa fa-linekdin"></a>  
-                        <a href="https://www.instagram.com/tekwani_shahab/" class="fa fa-instagram"></a> 
-                        <a href="https://github.com/Devtekwani09" class="fa fa-github"></a> 
+        </section>
+    
+        <section>
+            <div class="intro">
+                <div class="info">
+                <h1>Let me introduce <span>Myself</span></h1>
+            </div>
+            <div class="pic">
+                <img src="info.png" alt="">
+            </div>
+    
+            <div class="material">
+                <p>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️
+                    <br><br>
+                    I am fluent in classics like <span>C, C++, HTML and CSS.</span>
+                    <br><br>
+                    My field of Interest's are <span>Web Development and Data Structures and Algorithms.</span>
+                    <br><br>
+                    Whenever possible, I also apply my passion for developing products with 
+                    <br>
+                    <span>Node.js and Modern Javascript Library and Frameworks like React.js and Next.js.</span>
+                </p>
+            </div>
+    
+            <!-- <div class="words">
+                
+            </div> -->
+            </div>
+           
+        </section>
+    
+    
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Developed and Designed by <span>Dev Tekwani</span></h4>
+                    </div>
+    
+                    <div class="footer-col">
+                        <h4 class="mid">copywrite © </a><span>Dev Tekwani</span></h4>
+                    </div>
+    
+                    <div class="footer-col">
+                        <h4>Find me</h4>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/dev-tekwani-3b5b74220?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1OlLD2VGQNKRuIA6c%2FPr6w%3D%3D" class="fa fa-linekdin"></a>  
+                            <a href="https://www.instagram.com/tekwani_shahab/" class="fa fa-instagram"></a> 
+                            <a href="https://github.com/Devtekwani09" class="fa fa-github"></a> 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </body>
+    
+    <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        cancelBtn.onclick = ()=>{
+          body.classList.remove("disabled");
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
+    </html>
 </body>
-
-<script>
-    const body = document.querySelector("body");
-    const navbar = document.querySelector(".navbar");
-    const menuBtn = document.querySelector(".menu-btn");
-    const cancelBtn = document.querySelector(".cancel-btn");
-    menuBtn.onclick = ()=>{
-      navbar.classList.add("show");
-      menuBtn.classList.add("hide");
-      body.classList.add("disabled");
-    }
-    cancelBtn.onclick = ()=>{
-      body.classList.remove("disabled");
-      navbar.classList.remove("show");
-      menuBtn.classList.remove("hide");
-    }
-    window.onscroll = ()=>{
-      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-    }
-  </script>
 </html>

@@ -41,7 +41,7 @@ nav ul li a{
 
 nav ul li a:hover{
   color: #111;
-  background: #fff;
+  background: #0082e6;
 }
 nav .menu-btn i{
   color: #fff;
@@ -98,7 +98,7 @@ input[type="checkbox"]{
 
   nav ul li a:hover{
     background: none;
-    color: cyan;
+    color: #0082e6;
   }
 }
 /* .content div{
